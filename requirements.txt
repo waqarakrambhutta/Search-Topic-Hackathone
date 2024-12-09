@@ -9,3 +9,4 @@ transformers
 lxml_html_clean
 together
 Groq
+django-cors-headers
