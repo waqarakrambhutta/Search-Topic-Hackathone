@@ -28,9 +28,8 @@ DEBUG = False
 
 print('DEBUG', DEBUG, type(DEBUG))
 
-ALLOWED_HOSTS = [
-    '.railway.app', # https://saas.prod.railway.app
-]
+ALLOWED_HOSTS = ['*']
+
 if DEBUG:
     ALLOWED_HOSTS+=[
         '127.0.0.1',
