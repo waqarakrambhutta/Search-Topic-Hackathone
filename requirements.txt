@@ -1,0 +1,10 @@
+Django>=5.0,<5.1
+djangorestframework
+requests
+ipywidgets
+gradio
+newspaper3k
+transformers
+lxml_html_clean
+together
+Groq
